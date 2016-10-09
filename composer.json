@@ -1,0 +1,20 @@
+{
+  "name": "taitava/silverstripe-mobilemenu",
+  "description": "An easy way to add a mobile menu button to your theme automatically when the viewport is narrow.",
+  "type": "silverstripe-module",
+  "license": "MIT",
+  "require": {
+    "silverstripe/framework": "~3.1",
+    "silverstripe/cms": "~3.1"
+  },
+  "keywords": ["silverstripe","menu", "mobile", "responsive", "navigation"],
+  "authors": [{
+    "name": "Jarkko Linnanvirta",
+    "email": "posti@taitavasti.fi",
+    "homepage": "http://taitavasti.fi",
+    "role": "Developer"
+  }],
+  "extra": {
+    "installer-name": "mobilemenu"
+  }
+}

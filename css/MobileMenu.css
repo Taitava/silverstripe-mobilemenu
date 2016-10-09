@@ -1,0 +1,19 @@
+body.mobile-width a#mobile-menu-button
+{
+	/* Show the mobile menu button when the viewport is narrow */
+	display:			block;
+}
+
+body.desktop-width a#mobile-menu-button
+{
+	/* Hide the mobile menu button when the viewport is wide */
+	display:			none;
+}
+
+
+a#mobile-menu-button
+{
+	background:			url('../images/MobileMenuButton.png') no-repeat;
+	width:				22px !important;
+	height:				19px !important;
+}

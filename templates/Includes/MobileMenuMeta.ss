@@ -1,0 +1,2 @@
+<%-- This template is not mandatory to use in your website, but suggested, as it makes it easier to create responsive layouts. But perhaps you have already defined this line in your template. --%>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
