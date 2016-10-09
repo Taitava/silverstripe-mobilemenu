@@ -19,6 +19,7 @@ jQuery(function ($)
 		
 		return false; //Prevent browser from navigating to the link's URL
 	});
+	$('body').addClass('mobile-menu-closed'); //Initial state
 	
 	//Show/hide the menu button depending on viewport width
 	var onResize = function()
