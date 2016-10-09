@@ -79,7 +79,7 @@ a#mobile-menu-button
 
 This example has not been tested. If you find bugs in it, please let me know and I will try to solve them. 
  
-## The breakpoint between mobile and desktop views 
+### The breakpoint between mobile and desktop views 
 
  The default breakpoint is 768 pixels. It doesn't affect your layout in anyway, so you can define a breakpoint just for your mobile menu if you wish, or alternatively take it to a larger use in your layout so you can perhaps leave out media queries (at least if your layout design is simple and a single breakpoint is enough for you).
  
@@ -88,6 +88,16 @@ This example has not been tested. If you find bugs in it, please let me know and
 MobileMenu:
   breakpoint: your-custom-value-in-pixels #Default: 768
 ```
+
+### Meta viewport
+
+If you use `@media` queries in you CSS, you can put `<% include MobileMenuMeta %>` in your `<head>` section. This will provide you the following meta viewport HTML code:
+
+```HTML
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+However this is not mandatory for this module to work.
 
 ## The future
 
